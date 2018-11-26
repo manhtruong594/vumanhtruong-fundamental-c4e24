@@ -1,0 +1,24 @@
+1,
+  - In Python, the Boolean values are True and False (the capitalization must be exactly asshown), and the Python type is bool.
+  - 3 different expression that results a Boolean type:
+      >>> 5 * 2 == 3 
+          False
+      >>> 6 >= 5
+          True
+      >>> a = "toi"
+          a + "gioi" == "toigioi"
+          True
+ 2,
+   - Flowchart is a flow what shows exact steps and logic of how our statements execute.
+   - Draw flowchart (file image)
+ 3,
+   - The conditionals can also be nested within another. They are called Nested conditionals.
+   - Example:
+      >>> if a > 5:
+            print ("stay home")
+          else:
+            if 2 < a <= 5:
+              print ("hang out")
+            else:
+              print ("go to the movie")
+   
