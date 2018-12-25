@@ -20,6 +20,10 @@ data_list = []
 one_line = []
 for tr in tr_list:
     td_list = tr.find_all("td")
-    print(td_list[0].string)
-
-# pyexcel.save_as(records=songs_list,dest_file_name="Itunes_songs.xlsx")
+    for td in td_list:
+        td_content = {
+            "content": td.string
+        }
+        data_list.append(td_content)
+print(data_list)
+pyexcel.save_as(records=data_list,dest_file_name="cafef.xlsx")
