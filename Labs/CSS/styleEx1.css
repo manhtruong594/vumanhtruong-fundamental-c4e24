@@ -1,0 +1,9 @@
+.text-red{
+    color: red;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.weight-bold{
+    font-weight: bold;
+}

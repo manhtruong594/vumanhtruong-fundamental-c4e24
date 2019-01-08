@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <style>
+        .register{background-color: #b6c7f9;
+            width: 210px; padding: 10px; border: 5px;
+            font-family: courier;
+        }
+    </style>
+</head>
+<body>
+    <form action="/register/welcome" method="POST">
+    <div class = "register" >
+        <h1 style = "text-align: center">Register</h1>
+        <small style = "color: red">*All the form fields need require.</small>
+        <p><b>Full Name:</b></p>
+            <input type="text" title="What's your name?" name = 'fullname'>
+        <p><b>Email:</b></p>
+          <input type="email" placeholder= "123@email.com" name = 'email'>
+        <p><b>User name:</b></p>
+            <input type="text" placeholder="username123" name = 'username'>
+        <p><b>Password:</b></p>
+            <input type="text" placeholder="password" name = "password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"></br>
+        <p><input  style = "background-color: #446bdd " type = submit value = Submit></p>
+    </form>
+    </div>
+</body>
+</html>
